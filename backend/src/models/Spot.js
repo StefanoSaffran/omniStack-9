@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const config = require('./utils/config');
 
 const SpotSchema = new mongoose.Schema({
     thumbnail: {
@@ -21,7 +22,7 @@ const SpotSchema = new mongoose.Schema({
 })
 
 SpotSchema.virtual('thumbnail_url').get(function() {
-    return `http://192.168.0.185:3003/files/${this.thumbnail}`
+    return `${config.IPADDRESS}:${config.PORT}/files/${this.thumbnail}`
 })
 
 SpotSchema.set('toJSON', {
