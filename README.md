@@ -2,7 +2,9 @@
   <img src="mobile/src/assets/logo@3x.png" />
 </p>
 
-### Project developed during the 9th week Omnistack Aircnc (Air Coffee & Code) to booking spots for developers
+<h4 align="center">
+  Project developed during the 9th Omnistack week. Aircnc (Air Coffee & Code) the main goal is to booking spots for developers.
+</h4>
 
 ## :rocket: Built With
 
