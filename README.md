@@ -3,7 +3,7 @@
 </p>
 
 <h4 align="center">
-  Project developed during the 9th Omnistack week. Aircnc (Air Coffee & Code) the main goal is to booking spots for developers.
+  Project developed during the 9th Omnistack week. Aircnc (Air Coffee & Code) the main goal is to book spots for developers.
 </h4>
 
 ## :rocket: Built With
